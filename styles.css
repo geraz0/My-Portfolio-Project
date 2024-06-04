@@ -6,8 +6,8 @@
 }
 
 body {
-    background: #1f242d; 
-    color: #fff;
+    background: #e8eceb; 
+    color: #2d3e4e;
 }
 
 .index_header {
@@ -25,7 +25,7 @@ body {
 
 .logo {
     font-size: 1.563em;
-    color: #fff;
+    color: #e09e50;
     text-decoration: none;
     font-weight: 600;
     cursor: default;
@@ -33,16 +33,16 @@ body {
 
 .navbar a {
     font-size: 1.1250em;
-    color: #fff;
+    color: #2d3e4e;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 700;
     margin-left: 2.1875em;
     transition: .3s;
 }
 
 .navbar a:hover,
 .navbar a.active {
-    color: #0ef;
+    color: #e09e50;
 }
 
 .home {
@@ -69,7 +69,7 @@ body {
 }
 
 .home-content h3 span {
-    color: #0ef;   
+    color: #e09e50;   
 }
 
 .home-content h1 {
@@ -88,7 +88,7 @@ body {
     max-width: 28em;
     margin-right: -1.25em;
     border-radius: 10%;
-    border: 5px solid #0ef;
+    border: 5px solid #8cbdb9;
 }
 
 .social-media a {
@@ -98,34 +98,31 @@ body {
     width: 2.5em;
     height: 2.5em;
     background: transparent;
-    border: 0.125em solid #0ef;
+    border: 0.125em solid #e09e50;
     border-radius: 50%;
     font-size: 1.25em;
-    color: #0ef;
+    color: #8cbdb9;
     text-decoration: none;
     margin: 1.875em 0.938em 1.875em 0; 
     transition: .5s ease;
 }
 
 .social-media a:hover {
-    background: #0ef;
+    background: #e09e50;
     color: #1f242d;
-    box-shadow: 0 0 20px #0ef;
-}
-
-.btn {
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 2.5em;
-    box-shadow: 0 0 0.625em #0ef;
-    font-size: 1em;
-    color: #1f242d;
-    letter-spacing: 0.063em;
-    text-decoration: none;
-    font-weight: 600;
+    box-shadow: 0 0 20px #e09e50;
 }
 
 footer {
     text-align: center;
+}
+
+.home_projects {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.375em 10% 0;
 }
