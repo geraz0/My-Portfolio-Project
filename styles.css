@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+@media screen and (max-width: 767px) {
+    body {
+      font-size: 16px;
+    }
+}
 
 body {
     background: #e8eceb; 
