@@ -173,3 +173,27 @@ footer {
 .second_project img {
     width: 800px;
 }
+.third_project img {
+    width: 800px;
+}
+
+.home_interests {
+   text-align: center;
+   line-height: 3em;
+    padding: 3em;
+}
+
+.family_time img {
+    width: 400px;
+    height: 400px;
+}
+
+.travelling img {
+    width: 400px;
+    height: 400px;;
+}
+
+.pets img {
+    width: 250px;
+    height: 250px;
+}
